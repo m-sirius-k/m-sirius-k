@@ -1,0 +1,27 @@
+﻿<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+<style>
+.box { fill:#0f172a; stroke:#94a3b8; stroke-width:2; rx:10; }
+.text { fill:#e2e8f0; font-family:Segoe UI, Arial; font-size:14px; text-anchor:middle; }
+.line { stroke:#94a3b8; stroke-width:2; }
+</style>
+
+<rect class="box" x="30" y="60" width="150" height="60"/>
+<text class="text" x="105" y="95">Experiment</text>
+
+<rect class="box" x="210" y="60" width="150" height="60"/>
+<text class="text" x="285" y="95">Registry</text>
+
+<rect class="box" x="390" y="60" width="150" height="60"/>
+<text class="text" x="465" y="95">Research Gate</text>
+
+<rect class="box" x="570" y="60" width="150" height="60"/>
+<text class="text" x="645" y="95">Verification</text>
+
+<rect class="box" x="750" y="60" width="150" height="60"/>
+<text class="text" x="825" y="95">Research Map</text>
+
+<line class="line" x1="180" y1="90" x2="210" y2="90"/>
+<line class="line" x1="360" y1="90" x2="390" y2="90"/>
+<line class="line" x1="540" y1="90" x2="570" y2="90"/>
+<line class="line" x1="720" y1="90" x2="750" y2="90"/>
+</svg>
