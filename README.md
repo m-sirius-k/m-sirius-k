@@ -79,3 +79,45 @@ doctor_artifact_schema
 canon_notes_integrity  
 research_runner_selfcheck  
 docs_link_audit
+
+---
+
+# System Integrity Verification
+
+## 定義
+
+・Ecosystem 構造が設計仕様と一致する  
+・制度記録領域（canon）が存在する  
+・成果物領域（artifact）が存在する  
+・各リポジトリに入口ドキュメントが存在する  
+・Git 状態が再現可能である  
+・公開ライセンスが存在する  
+
+## 検査項目
+
+1 ecosystem_doctor_integrity  
+Ecosystem 全体の整合性を確認する  
+
+2 ecosystem_structure_scan  
+ディレクトリ構造と repository 構成を検査する  
+
+3 canon_directory_integrity  
+制度記録領域 canon の構造を検査する  
+
+4 artifact_directory_integrity  
+成果物領域 artifact の構造を検査する  
+
+5 repo_entrypoints_present  
+各リポジトリに入口ドキュメントが存在することを確認する  
+
+6 repo_git_clean_check  
+Git working tree が clean であることを確認する  
+
+7 repo_license_presence  
+公開リポジトリにライセンスファイルが存在することを確認する  
+
+
+## 詳細な検査内容
+
+[Verification Details](docs/verification/system_integrity.md)
+
