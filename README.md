@@ -1,84 +1,114 @@
 ﻿# MoCKA Ecosystem
 
-Verifiable AI Civilization Architecture.
+Verifiable AI Civilization Architecture
 
-MoCKA is a research-grade AI ecosystem designed for verifiable reasoning, institutional memory, and transparent governance.
+MoCKA is a research ecosystem for verifiable AI reasoning,
+institutional memory, and transparent governance.
 
----
+MoCKA は  
+検証可能な AI 推論  
+制度的記憶  
+透明なガバナンス  
 
-## Ecosystem Structure
-
-MoCKA Core  
-https://github.com/nsjpkimura-del/MoCKA
-
-Knowledge Gate  
-https://github.com/nsjpkimura-del/MoCKA-KNOWLEDGE-GATE
-
-Transparency  
-https://github.com/nsjpkimura-del/mocka-transparency
-
-External Brain  
-https://github.com/nsjpkimura-del/mocka-external-brain
-
-Civilization  
-https://github.com/nsjpkimura-del/mocka-civilization
-
-Core Private  
-private operational layer
+を実現する研究エコシステムです。
 
 ---
 
-## Ecosystem Roles
+## Ecosystem Overview
+
+            +-------------------+
+            |     MoCKA Core    |
+            +---------+---------+
+                      |
+    +-----------------+------------------+
+    |                 |                  |
+
++---------------+ +---------------+ +---------------+
+| KnowledgeGate | | Transparency | | ExternalBrain |
++-------+-------+ +-------+-------+ +-------+-------+
+| | |
+| | |
+| Public verification |
+| |
++---------------+-----------------------+
+|
++---------------+
+| Civilization |
++---------------+
+
+
+---
+
+## Repository Access
 
 MoCKA Core  
 Research execution engine
 
+[Open Repository](https://github.com/nsjpkimura-del/MoCKA)
+
+---
+
 Knowledge Gate  
 Institutional memory layer
 
-Civilization  
-Governance philosophy
+[Open Repository](https://github.com/nsjpkimura-del/MoCKA-KNOWLEDGE-GATE)
+
+---
 
 Transparency  
 Public verification and audit
 
+[Open Repository](https://github.com/nsjpkimura-del/mocka-transparency)
+
+---
+
 External Brain  
 External knowledge layer
 
-Core Private  
-Operational private layer
+[Open Repository](https://github.com/nsjpkimura-del/mocka-external-brain)
+
+---
+
+Civilization  
+Governance philosophy and conceptual layer
+
+[Open Repository](https://github.com/nsjpkimura-del/mocka-civilization)
 
 ---
 
 ## Research Workflow
 
+
 Experiment
-
+↓
 Experiment Registry
-
+↓
 Research Gate
-
+↓
 Verification
-
+↓
 Research Map
+
 
 ---
 
 ## Quick Demo
 
-Run Research Gate
+Run the Research Gate
 
 powershell -ExecutionPolicy Bypass -File MoCKA/tools/mocka_research_run.ps1
 
 ---
 
-## Technical Backbone
+## 技術概要 / Technical Backbone
 
-Research run status
+Research Gate status
 
 RESEARCH_RUN: OK
 
-Registered experiments: 20
+Registered Experiments: 20
+
+Key verification modules
 
 ecosystem_doctor_integrity  
 repo_entrypoints_present  
@@ -105,11 +135,8 @@ docs_link_audit
 
 ## Documentation
 
-Architecture
-
-Research workflow
-
-Governance model
-
+Architecture  
+Research workflow  
+Governance model  
 Verification protocol
 
