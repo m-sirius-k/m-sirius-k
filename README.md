@@ -1,192 +1,115 @@
-# NSJP_kimura
+﻿# MoCKA Ecosystem
 
-## MoCKA — A Minimal Institutional Core for Verifiable AI Systems  
-MoCKA ― 検証可能なAIのための最小制度コア
+Verifiable AI Civilization Architecture.
 
----
-
-### What is MoCKA?
-
-MoCKA is not a product.  
-It is not a model.  
-It does not compete on features.
-
-MoCKA is an attempt to define the minimal institutional structure required for AI systems to be reproducible, auditable, and historically accountable.
-
-It is built around deterministic audit chains, cryptographic key governance, multi-observer verification, and time anchoring —  
-not to control intelligence,  
-but to preserve the process by which intelligence evolves.
-
-MoCKA does not try to make AI smarter.  
-It tries to make experimentation accountable.
+MoCKA is a research-grade AI ecosystem designed for verifiable reasoning, institutional memory, and transparent governance.
 
 ---
 
-### The Question Behind It
+## Ecosystem Structure
 
-Modern AI is powerful, but often stateless.  
-It generates results — yet struggles to preserve history.
+MoCKA Core  
+https://github.com/nsjpkimura-del/MoCKA
 
-If intelligence cannot reconstruct its own past,  
-can it truly evolve responsibly?
+Knowledge Gate  
+https://github.com/nsjpkimura-del/MoCKA-KNOWLEDGE-GATE
 
-MoCKA is my exploration of that question.
+Transparency  
+https://github.com/nsjpkimura-del/mocka-transparency
 
-Hypothesis.  
-Experiment.  
-Verification.  
-Debug.  
-Correction.  
-Retry.  
+External Brain  
+https://github.com/nsjpkimura-del/mocka-external-brain
 
-And then — can the entire cycle be reproduced?
+Civilization  
+https://github.com/nsjpkimura-del/mocka-civilization
 
-MoCKA exists to preserve that loop.
-
----
-
-### Why It Matters
-
-The world does not only need stronger AI.  
-It needs systems that can explain how they became what they are.
-
-Not faster answers.  
-But durable processes.
-
-MoCKA is infrastructure beneath applications —  
-like the movement inside a watch.
-
-Rarely seen.  
-Fundamental to trust.
-
-The exterior may change.  
-The models may change.  
-The vendors may change.  
-
-But the internal mechanism of accountability must remain stable.
+Core Private  
+private operational layer
 
 ---
 
-### My Position
+## Ecosystem Roles
 
-I am not a full-time dedicated engineer,  
-and responses may occasionally be delayed.
+MoCKA Core  
+Research execution engine
 
-MoCKA is developed as foundational research —  
-a structural exploration rather than a finished product.
+Knowledge Gate  
+Institutional memory layer
 
-If others extend it, formalize it, integrate it, or challenge it,  
-that is part of the experiment.
+Civilization  
+Governance philosophy
 
----
+Transparency  
+Public verification and audit
 
-### Research Themes
+External Brain  
+External knowledge layer
 
-- Deterministic system design  
-- Cryptographic audit chains  
-- Multi-agent orchestration  
-- Institutional memory for AI  
-- Governance-aware AI systems  
-- Reproducible experimentation  
+Core Private  
+Operational private layer
 
 ---
 
-### Direction
+## Research Workflow
 
-From raw intelligence  
-to accountable intelligence.
+Experiment
 
-From isolated outputs  
-to preserved evolution.
+Experiment Registry
 
-From ad-hoc systems  
-to institutional continuity.
+Research Gate
 
-MoCKA is my attempt to explore the smallest viable structure  
-that allows collaborative AI to evolve without losing its history.
+Verification
+
+Research Map
 
 ---
 
-## 日本語
+## Quick Demo
 
-### MoCKAとは何か
+Run Research Gate
 
-それは製品ではありません。  
-モデルでもありません。  
-機能競争のための仕組みでもありません。
-
-AIが再現可能で、監査可能で、歴史を保持できるために必要な「最小制度構造」を探る試みです。
-
-決定論的監査チェーン、鍵の統治構造、多層観測検証、時刻封印を基盤とし、  
-知性を制御するためではなく、  
-知性の進化過程を保存するための構造を目指しています。
-
-MoCKAはAIを賢くすることを目的としません。  
-試行錯誤を制度化することを目的とします。
+powershell -ExecutionPolicy Bypass -File MoCKA/tools/mocka_research_run.ps1
 
 ---
 
-### 背景にある問い
+## Technical Backbone
 
-現代のAIは強力ですが、多くの場合ステートレスです。  
-結果は生成できても、その過程を保持することは困難です。
+Research run status
 
-もし知性が自らの過去を再構築できないなら、  
-責任ある進化は可能でしょうか。
+RESEARCH_RUN: OK
 
-MoCKAはその問いに対する探究です。
+Registered experiments: 20
 
-仮説。  
-実験。  
-検証。  
-デバッグ。  
-修正。  
-再挑戦。  
-
-その循環を保存し、再現可能にすること。
-
-それがMoCKAの役割です。
-
----
-
-### なぜ重要か
-
-世界は単に「より強いAI」を必要としているわけではありません。  
-「どのようにそこへ到達したのかを説明できるAI」を必要としています。
-
-速い出力ではなく、  
-持続可能なプロセス。
-
-MoCKAはアプリケーションの下にある基盤構造です。  
-時計の外装ではなく、内部の機構のような存在です。
-
-外装は変わるかもしれません。  
-モデルも変わるかもしれません。  
-ベンダーも変わるかもしれません。
-
-しかし、責任と再現性を担保する内部構造は安定していなければなりません。
+ecosystem_doctor_integrity  
+repo_entrypoints_present  
+experiments_minimum_coverage  
+gpg_signing_config_present  
+readme_role_vocab_integrity  
+doctor_emit_json_artifact  
+doctor_sha_note_upsert  
+research_map_registry_integrity  
+readme_research_entry_presence  
+ecosystem_structure_scan  
+repo_git_clean_check  
+repo_license_presence  
+canon_directory_integrity  
+artifact_directory_integrity  
+research_registry_schema  
+doctor_script_presence  
+doctor_artifact_schema  
+canon_notes_integrity  
+research_runner_selfcheck  
+docs_link_audit
 
 ---
 
-### 私の立場
+## Documentation
 
-私は専任エンジニアではありません。  
-返信が遅れることもあります。
+Architecture
 
-MoCKAは完成製品ではなく、  
-制度的構造を探る基礎研究として進めています。
+Research workflow
 
-この構造が誰かに拡張され、体系化され、製品に統合され、あるいは批判されることも、  
-この試みの一部です。
+Governance model
 
----
+Verification protocol
 
-### 方向性
-
-未制度化の知性から、責任ある知性へ。  
-断片的な出力から、保存された進化へ。  
-場当たり的な構造から、制度的継続性へ。
-
-MoCKAは、  
-協調的AIが歴史を失わずに進化するための  
-最小構造を探る試みです。
