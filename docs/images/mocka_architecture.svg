@@ -1,0 +1,35 @@
+﻿<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+.box { fill:#0f172a; stroke:#94a3b8; stroke-width:2; rx:10; }
+.text { fill:#e2e8f0; font-family:Segoe UI, Arial; font-size:16px; text-anchor:middle; }
+.small { fill:#94a3b8; font-family:Segoe UI, Arial; font-size:12px; text-anchor:middle; }
+.line { stroke:#94a3b8; stroke-width:2; }
+</style>
+
+<rect class="box" x="350" y="40" width="200" height="70"/>
+<text class="text" x="450" y="75">MoCKA Core</text>
+<text class="small" x="450" y="95">Research Gate</text>
+
+<rect class="box" x="120" y="180" width="200" height="70"/>
+<text class="text" x="220" y="215">Knowledge Gate</text>
+<text class="small" x="220" y="235">Memory Layer</text>
+
+<rect class="box" x="350" y="180" width="200" height="70"/>
+<text class="text" x="450" y="215">Transparency</text>
+<text class="small" x="450" y="235">Audit Layer</text>
+
+<rect class="box" x="580" y="180" width="200" height="70"/>
+<text class="text" x="680" y="215">External Brain</text>
+<text class="small" x="680" y="235">Knowledge</text>
+
+<rect class="box" x="350" y="310" width="200" height="70"/>
+<text class="text" x="450" y="345">Civilization</text>
+<text class="small" x="450" y="365">Governance</text>
+
+<line class="line" x1="450" y1="110" x2="220" y2="180"/>
+<line class="line" x1="450" y1="110" x2="450" y2="180"/>
+<line class="line" x1="450" y1="110" x2="680" y2="180"/>
+<line class="line" x1="220" y1="250" x2="450" y2="310"/>
+
+</svg>
