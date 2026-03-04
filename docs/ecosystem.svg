@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#9ca3af"/>
+</marker>
+</defs>
+<rect x="0" y="0" width="1100" height="520" fill="#0a0f1a"/>
+<rect x="420" y="40" width="260" height="92" rx="16" ry="16" fill="#0b1220" stroke="#6b7280" stroke-width="2"/>
+<text x="550.0" y="74" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="20" fill="#e5e7eb">MoCKA Core</text>
+<text x="550.0" y="102" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">Research gate and execution core</text>
+<rect x="90" y="210" width="260" height="92" rx="16" ry="16" fill="#0b1220" stroke="#6b7280" stroke-width="2"/>
+<text x="220.0" y="244" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="20" fill="#e5e7eb">Knowledge Gate</text>
+<text x="220.0" y="272" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">Institutional memory layer</text>
+<rect x="420" y="210" width="260" height="92" rx="16" ry="16" fill="#0b1220" stroke="#6b7280" stroke-width="2"/>
+<text x="550.0" y="244" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="20" fill="#e5e7eb">Transparency</text>
+<text x="550.0" y="272" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">Audit and public proof</text>
+<rect x="750" y="210" width="260" height="92" rx="16" ry="16" fill="#0b1220" stroke="#6b7280" stroke-width="2"/>
+<text x="880.0" y="244" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="20" fill="#e5e7eb">External Brain</text>
+<text x="880.0" y="272" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">External knowledge layer</text>
+<rect x="420" y="380" width="260" height="92" rx="16" ry="16" fill="#0b1220" stroke="#6b7280" stroke-width="2"/>
+<text x="550.0" y="414" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="20" fill="#e5e7eb">Civilization</text>
+<text x="550.0" y="442" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">Governance philosophy layer</text>
+<line x1="550.0" y1="132" x2="220.0" y2="210" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="550.0" y1="132" x2="550.0" y2="210" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="550.0" y1="132" x2="880.0" y2="210" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="220.0" y1="302" x2="550.0" y2="380" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="550.0" y="18" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">MoCKA Ecosystem Architecture</text>
+</svg>
