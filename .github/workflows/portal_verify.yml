@@ -1,0 +1,26 @@
+﻿name: portal_verify
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "README.md"
+      - "DEMO_ARENA.md"
+      - "tools/**"
+      - ".github/workflows/portal_verify.yml"
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run portal verification
+        run: python tools/portal_verify.py

@@ -1,132 +1,101 @@
 ﻿# MoCKA Demo Arena
 
-Executable demonstrations for the MoCKA ecosystem.
+This page is a runnable demonstration.
 
-This page allows visitors to verify the claims of the MoCKA architecture.
-
-The README explains the system.  
-The Demo Arena demonstrates the system.
+No installation required.
+The demo runs on GitHub Actions.
 
 ---
 
-# Demo 1 Core Verification
+# Demo 1 Browser Demo
 
 Purpose
 
-Verify that the MoCKA verification system runs correctly.
+Demonstrate that this research portal is verifiable.
 
-Repository
+How to run
 
-https://github.com/nsjpkimura-del/MoCKA
+Open the workflow page and click Run workflow.
 
-Run
+Workflow URL
 
-git clone https://github.com/nsjpkimura-del/MoCKA.git  
-cd MoCKA  
-python verify_all.py
+https://github.com/nsjpkimura-del/nsjpkimura-del/actions/workflows/portal_verify.yml
 
 Expected Result
 
-Multiple verification steps execute.
+PASS and a verification log.
 
-Final output
+What it verifies
 
-ALL CHECKS PASSED
+README and DEMO_ARENA structure requirements are satisfied.
 
 ---
 
-# Demo 2 Research Execution
+# Demo 2 Break Test
 
 Purpose
 
-Execute the MoCKA research experiment framework.
+Let participants experience failure detection.
 
-Repository
+How to run
 
-https://github.com/nsjpkimura-del/MoCKA
+Edit README.md and delete one required section heading.
+Commit and push.
 
-Run
-
-git clone https://github.com/nsjpkimura-del/MoCKA.git  
-cd MoCKA  
-powershell tools/run_experiments.ps1
+Then run Demo 1 again.
 
 Expected Result
 
-Research experiments execute successfully.
+FAIL with a precise missing section report.
 
 ---
 
-# Demo 3 Documentation Verification
+# Demo 3 Repair Test
 
 Purpose
 
-Verify documentation integrity.
+Let participants experience recovery after repair.
 
-Repository
+How to run
 
-https://github.com/nsjpkimura-del/MoCKA
+Restore the deleted section heading.
+Commit and push.
 
-Run
-
-git clone https://github.com/nsjpkimura-del/MoCKA.git  
-cd MoCKA  
-python tools/audit_docs_links.py
+Then run Demo 1 again.
 
 Expected Result
 
-All documentation links verified.
+PASS.
 
 ---
 
-# Demo 4 Cryptographic Evidence
+# Demo 4 Local Optional Reproduction
 
 Purpose
 
-Verify audit chain integrity and signature validation.
-
-Repository
-
-https://github.com/nsjpkimura-del/MoCKA
+Run the same verification locally.
 
 Run
 
-git clone https://github.com/nsjpkimura-del/MoCKA.git  
-cd MoCKA  
-verify.bat
+cd C:\Users\sirok\mocka-ecosystem\nsjpkimura-del
+python tools\portal_verify.py
 
 Expected Result
 
-OK: CHAIN_OK + SIGNATURE_OK
+PASS.
 
 ---
 
-# Ecosystem Demonstration
+# Verification Domains
 
-This demonstration requires the full MoCKA ecosystem environment.
+System Integrity
 
-Ecosystem Workspace
+Portal structure and required sections are present.
 
-https://github.com/nsjpkimura-del/nsjpkimura-del
+Documentation Integrity
 
-Run
+Entry pages remain consistent and verifiable.
 
-powershell ecosystem_doctor.ps1
+Audit Evidence
 
-Expected Result
-
-All repositories scanned  
-No structural errors detected
-
----
-
-# Verification Layers
-
-MoCKA demonstrations verify four layers.
-
-Core system verification  
-Research process verification  
-Documentation integrity  
-Cryptographic audit evidence
-
-These experiments allow any observer to reproduce the verification process of the MoCKA ecosystem.
+GitHub Actions run logs serve as public execution evidence.
