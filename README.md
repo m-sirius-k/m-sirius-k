@@ -211,18 +211,3 @@ RESEARCH_RUN: OK
 GitHub Actions で検証を実行
 
 
-この全文なら、git して GitHub に反映したときに
-
-- テーブルのリンクが全部クリックできる  
-- Demo Arena へのリンクが必ず効く  
-- Actions のリンクもクリックできる  
-- Quick Demo の「コマンドと期待結果」が1つの箱でまとまって表示される（ばらけない）
-
-という状態になります。
-
-このまま貼って保存してから、いつもの3手でOKです。
-
-```powershell
-git add README.md
-git commit -m "Normalize README links and stabilize Quick Demo formatting"
-git push
