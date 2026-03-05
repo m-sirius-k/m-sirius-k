@@ -1,88 +1,86 @@
 ﻿# MoCKA Demo Arena
 
-This page is a runnable demonstration.
+Executable demonstrations for the MoCKA ecosystem.
 
-No installation required.
-The demo runs on GitHub Actions.
+This page allows visitors to run a live verification directly from GitHub.
 
 ---
 
-# Demo 1 Browser Demo
+# Run Live Demo
 
-Purpose
-
-Demonstrate that this research portal is verifiable.
-
-How to run
-
-Open the workflow page and click Run workflow.
-
-Workflow URL
+Open the workflow page and press **Run workflow**.
 
 https://github.com/nsjpkimura-del/nsjpkimura-del/actions/workflows/portal_verify.yml
 
-Expected Result
-
-PASS and a verification log.
-
-What it verifies
-
-README and DEMO_ARENA structure requirements are satisfied.
+This launches the verification system on GitHub servers.
 
 ---
 
-# Demo 2 Break Test
+# Live Result
+
+After execution, open the run log.
+
+https://github.com/nsjpkimura-del/nsjpkimura-del/actions
+
+Expected result
+
+RESULT: PASS
+
+or
+
+RESULT: FAIL
+
+---
+
+# Break Test
 
 Purpose
 
-Let participants experience failure detection.
+Experience failure detection.
 
 How to run
 
-Edit README.md and delete one required section heading.
-Commit and push.
+1 Edit README.md  
+2 Remove one required section heading  
+3 Commit and push  
+4 Run the workflow again
 
-Then run Demo 1 again.
+Expected result
 
-Expected Result
-
-FAIL with a precise missing section report.
+FAIL with missing section report.
 
 ---
 
-# Demo 3 Repair Test
+# Repair Test
 
 Purpose
 
-Let participants experience recovery after repair.
+Verify recovery after repair.
 
 How to run
 
-Restore the deleted section heading.
-Commit and push.
+1 Restore the deleted section heading  
+2 Commit and push  
+3 Run workflow again
 
-Then run Demo 1 again.
+Expected result
 
-Expected Result
-
-PASS.
+PASS
 
 ---
 
-# Demo 4 Local Optional Reproduction
+# Local Reproduction
 
-Purpose
-
-Run the same verification locally.
+Optional local verification.
 
 Run
 
 cd C:\Users\sirok\mocka-ecosystem\nsjpkimura-del
 python tools\portal_verify.py
 
-Expected Result
+Expected result
 
-PASS.
+PASS
 
 ---
 
@@ -90,12 +88,12 @@ PASS.
 
 System Integrity
 
-Portal structure and required sections are present.
+Portal structure requirements.
 
 Documentation Integrity
 
-Entry pages remain consistent and verifiable.
+Entry pages remain verifiable.
 
 Audit Evidence
 
-GitHub Actions run logs serve as public execution evidence.
+GitHub workflow logs provide execution evidence.
