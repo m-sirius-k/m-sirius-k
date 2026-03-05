@@ -136,32 +136,3 @@ canon_notes_integrity
 
 </details>
 
----
-
-# Quick Demo
-
-## English
-
-This page introduces the MoCKA verification system.
-
-To experience the verification demonstrations and research test environment, open the Demo Arena.
-
-All demonstrations, validation runs, and researcher tests are organized there.
-
-### Open Demo Arena
-
-[DEMO_ARENA](./VERIFICATION_ARENA.md)
-
----
-
-## 日本語
-
-このページでは MoCKA の検証システムを紹介しています。
-
-検証デモや研究テストを体験するには、デモ会場を開いてください。
-
-すべてのデモと検証テストはデモ会場で管理されています。
-
-### デモ会場
-
-[DEMO_ARENA](./VERIFICATION_ARENA.md)
