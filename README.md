@@ -158,20 +158,6 @@ Run verification command
 -> aggregate results  
 -> print final verdict
 
-### One-command Demo
-
-Run the verification script locally.
-
-```powershell
-powershell -ExecutionPolicy Bypass -File MoCKA/tools/mocka_research_run.ps1
-```
-
-Expected result
-
-```
-RESEARCH_RUN: OK
-```
-
 ### Interactive Demo
 
 Experience the MoCKA verification system in the browser.
