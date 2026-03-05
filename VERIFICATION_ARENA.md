@@ -1,4 +1,4 @@
-﻿# Verification Arena
+# Verification Arena
 
 This page is not a demo.
 
