@@ -174,30 +174,15 @@ RESEARCH_RUN: OK
 
 ### Interactive Demo
 
-Experience the MoCKA verification environment in the browser.
+Experience the MoCKA verification system in the browser.
 
-- [Open Demo Arena](./DEMO_ARENA.md)
-- [Run verification in GitHub Actions](https://github.com/nsjpkimura-del/MoCKA/actions)
+- Open the demo environment  
+  [Open Demo Arena](./DEMO_ARENA.md)
 
-These demos allow visitors to observe how the Research Gate verification works.
+- Run verification in the browser  
+  https://github.com/nsjpkimura-del/MoCKA/actions
 
----
-
-### Researcher Demo
-
-The following command runs the verification locally for researchers or developers who cloned the MoCKA repository.
-
-```powershell
-powershell -ExecutionPolicy Bypass -File MoCKA/tools/mocka_research_run.ps1
-```
-
-Expected result
-
-```
-RESEARCH_RUN: OK
-```
-
-This result means the ecosystem passed all verification controls and the research environment is valid.
+All verification demonstrations and researcher tests are organized in the Demo Arena.
 
 ---
 
@@ -205,29 +190,12 @@ This result means the ecosystem passed all verification controls and the researc
 
 ### 体験デモ
 
-ブラウザから MoCKA の検証環境を体験できます。
+ブラウザから MoCKA の検証システムを体験できます。
 
-- [デモ会場を開く](./DEMO_ARENA.md)
-- [GitHub Actions で検証を実行](https://github.com/nsjpkimura-del/MoCKA/actions)
+・デモ会場を開く  
+[DEMO_ARENA.md](./DEMO_ARENA.md)
 
-これらのデモでは Research Gate 検証の動作を見ることができます。
+・ブラウザで検証を実行  
+https://github.com/nsjpkimura-del/MoCKA/actions
 
----
-
-### 研究者向けデモ
-
-MoCKA をローカルに取得した研究者・開発者は、次のコマンドで検証を実行できます。
-
-```powershell
-powershell -ExecutionPolicy Bypass -File MoCKA/tools/mocka_research_run.ps1
-```
-
-期待結果
-
-```
-RESEARCH_RUN: OK
-```
-
-この結果は、MoCKA エコシステムがすべての検証項目を通過し、研究環境が正常であることを示します。
-
-
+すべての検証デモと研究者向けテストはデモ会場で管理されています。
