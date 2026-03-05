@@ -145,7 +145,7 @@ All demonstrations, validation runs, and researcher tests are organized there.
 
 ### Open Demo Arena
 
-[DEMO_ARENA.md](./DEMO_ARENA.md)
+[DEMO_ARENA](./DEMO_ARENA.md)
 
 ---
 
@@ -159,4 +159,4 @@ All demonstrations, validation runs, and researcher tests are organized there.
 
 ### デモ会場
 
-[DEMO_ARENA.md](./DEMO_ARENA.md)
+[DEMO_ARENA](./DEMO_ARENA.md)
