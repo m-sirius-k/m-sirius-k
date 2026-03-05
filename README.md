@@ -158,56 +158,68 @@ Run verification command
 -> aggregate results  
 -> print final verdict
 
-### One-command demo
+### One-command Demo
 
-```text
+Run the verification script locally.
+
+```powershell
 powershell -ExecutionPolicy Bypass -File MoCKA/tools/mocka_research_run.ps1
+```
 
 Expected result
+
+```
 RESEARCH_RUN: OK
-Interactive Demo
+```
 
-Open Demo Arena
+### Interactive Demo
 
-Run verification in browser (GitHub Actions)
+Open the demo environment or run verification in the browser.
 
-日本語
+- [Open Demo Arena](./DEMO_ARENA.md)
+- [Run verification in GitHub Actions](https://github.com/nsjpkimura-del/MoCKA/actions)
 
-このデモは Research Gate 検証システムが何を行い、何を証明するのか を示します。
+---
+
+## 日本語
+
+このデモは **Research Gate 検証システムが何を行い、何を証明するのか** を示します。
 
 このデモは研究実験を実行するものではありません。
 
-MoCKA エコシステム全体の構造と整合性を検証し、
-再現可能な研究を実行できる状態であること を確認します。
+MoCKA エコシステム全体の構造と整合性を検証し、  
+**再現可能な研究を実行できる状態であること** を確認します。
 
-検証内容
+### 検証内容
 
-システム構造
+- システム構造
+- リポジトリ整合性
+- 研究登録情報の整合性
+- ドキュメント整合性
+- 監査証跡の存在
 
-リポジトリ整合性
+### 検証フロー
 
-研究登録情報の整合性
+コマンド実行  
+→ 検証項目の実行  
+→ 結果集約  
+→ 最終判定の表示  
 
-ドキュメント整合性
+### 一撃デモ
 
-監査証跡の存在
-
-検証フロー
-
-コマンド実行
--> 検証項目の実行
--> 結果集約
--> 最終判定の表示
-
-一撃デモ
+```powershell
 powershell -ExecutionPolicy Bypass -File MoCKA/tools/mocka_research_run.ps1
+```
 
 期待結果
+
+```
 RESEARCH_RUN: OK
-体験デモ
+```
 
-デモ会場を開く
+### 体験デモ
 
-GitHub Actions で検証を実行
+- [デモ会場を開く](./DEMO_ARENA.md)
+- [GitHub Actions で検証を実行](https://github.com/nsjpkimura-del/MoCKA/actions)
 
 
