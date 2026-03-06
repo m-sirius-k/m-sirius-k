@@ -46,21 +46,23 @@ docs/SHADOW_MOVEMENT_PRINCIPLE.md
 
 # Shadow Movement Architecture
 
+```mermaid
 flowchart LR
 
-A[Primary Movement Research Execution]
+A[Primary Movement<br>Research Execution]
 
-B[Verification Layer Evidence Validation]
+B[Verification Layer<br>Evidence Validation]
 
-C[Institutional Memory Recorded Knowledge]
+C[Institutional Memory<br>Recorded Knowledge]
 
-D[Shadow Movement Independent Verification Path]
+D[Shadow Movement<br>Independent Verification Path]
 
 A --> B
 B --> C
 
 A -.shadow path.-> D
 D --> B
+```
 
 Primary Movement
 Main research execution path.
