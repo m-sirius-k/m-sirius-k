@@ -18,11 +18,11 @@ MoCKA は、検証可能な AI 推論、制度的記憶、透明なガバナンスを目的とする研究エコシ
 
 | Layer | Role | Repository |
 |------|------|-----------|
-| MoCKA Core | Research gate and execution | [MoCKA](https://github.com/nsjpkimura-del/MoCKA) |
-| Knowledge Gate | Institutional memory | [MoCKA-KNOWLEDGE-GATE](https://github.com/nsjpkimura-del/MoCKA-KNOWLEDGE-GATE) |
-| Transparency | Audit and public proof | [mocka-transparency](https://github.com/nsjpkimura-del/mocka-transparency) |
-| External Brain | External knowledge integration | [mocka-external-brain](https://github.com/nsjpkimura-del/mocka-external-brain) |
-| Civilization | Governance philosophy | [mocka-civilization](https://github.com/nsjpkimura-del/mocka-civilization) |
+| MoCKA Core | Research gate and execution | [MoCKA](https://github.com/m-sirius-k/MoCKA) |
+| Knowledge Gate | Institutional memory | [MoCKA-KNOWLEDGE-GATE](https://github.com/m-sirius-k/MoCKA-KNOWLEDGE-GATE) |
+| Transparency | Audit and public proof | [mocka-transparency](https://github.com/m-sirius-k/mocka-transparency) |
+| External Brain | External knowledge integration | [mocka-external-brain](https://github.com/m-sirius-k/mocka-external-brain) |
+| Civilization | Governance philosophy | [mocka-civilization](https://github.com/m-sirius-k/mocka-civilization) |
 | Core Private | Operational layer | Internal repository |
 
 ---
@@ -140,3 +140,4 @@ doctor_sha_note_upsert
 canon_notes_integrity  
 
 </details>
+

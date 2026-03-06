@@ -18,11 +18,11 @@ It is a public verification index for the research portal.
 
 Workflow runs
 
-https://github.com/nsjpkimura-del/nsjpkimura-del/actions/workflows/portal_verify.yml
+https://github.com/m-sirius-k/m-sirius-k/actions/workflows/portal_verify.yml
 
 All runs
 
-https://github.com/nsjpkimura-del/nsjpkimura-del/actions
+https://github.com/m-sirius-k/m-sirius-k/actions
 
 What to look for
 
@@ -35,9 +35,10 @@ RESULT: FAIL
 
 Run
 
-cd C:\Users\sirok\mocka-ecosystem\nsjpkimura-del
+cd C:\Users\sirok\mocka-ecosystem\m-sirius-k
 python tools\portal_verify.py
 
 Expected result
 
 RESULT: PASS
+
