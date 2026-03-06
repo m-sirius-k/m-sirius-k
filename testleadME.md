@@ -38,6 +38,66 @@ Minimum Operating Capability（最低限稼働能力）を基準とした約75％の稼働能力を維持
 
 これは完全停止を回避し、知識循環を維持するための基本原理です。
 
+`svg
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+
+<style>
+.box{fill:#0f172a;stroke:#94a3b8;stroke-width:2;rx:10}
+.shadowbox{fill:#1e293b;stroke:#ef4444;stroke-width:2;rx:10}
+.text{fill:#e5e7eb;font-family:Segoe UI,Arial;font-size:14px;text-anchor:middle}
+.title{fill:#e5e7eb;font-family:Segoe UI,Arial;font-size:20px;font-weight:bold;text-anchor:middle}
+.line{stroke:#94a3b8;stroke-width:2}
+.shadow{stroke:#ef4444;stroke-width:2;stroke-dasharray:6 6}
+.label{fill:#cbd5f5;font-family:Segoe UI,Arial;font-size:12px;text-anchor:middle}
+</style>
+
+<text x="480" y="40" class="title">MoCKA Dual Movement Architecture</text>
+
+<!-- Core -->
+<rect x="380" y="80" width="200" height="60" class="box"/>
+<text x="480" y="110" class="text">MoCKA Core</text>
+<text x="480" y="128" class="text">Research Gate</text>
+
+<!-- Primary Movement -->
+<rect x="200" y="220" width="240" height="80" class="box"/>
+<text x="320" y="255" class="text">MoCKA Movement</text>
+<text x="320" y="275" class="text">Primary Engine</text>
+
+<!-- Shadow Movement -->
+<rect x="520" y="220" width="240" height="80" class="shadowbox"/>
+<text x="640" y="255" class="text">Shadow Movement</text>
+<text x="640" y="275" class="text">Independent Engine</text>
+
+<!-- Verification -->
+<rect x="360" y="380" width="240" height="80" class="box"/>
+<text x="480" y="415" class="text">Verification Layer</text>
+<text x="480" y="435" class="text">Evidence Validation</text>
+
+<!-- Knowledge -->
+<rect x="360" y="490" width="240" height="60" class="box"/>
+<text x="480" y="525" class="text">Knowledge Gate</text>
+
+<!-- Lines Core -->
+<line x1="480" y1="140" x2="320" y2="220" class="line"/>
+<line x1="480" y1="140" x2="640" y2="220" class="line"/>
+
+<!-- Mutual relation -->
+<line x1="440" y1="260" x2="520" y2="260" class="line"/>
+<line x1="520" y1="260" x2="440" y2="260" class="shadow"/>
+
+<!-- Downstream -->
+<line x1="320" y1="300" x2="480" y2="380" class="line"/>
+<line x1="640" y1="300" x2="480" y2="380" class="shadow"/>
+
+<line x1="480" y1="460" x2="480" y2="490" class="line"/>
+
+<!-- Capability labels -->
+<text x="380" y="350" class="label">100% capability</text>
+<text x="580" y="350" class="label">?75% capability</text>
+
+</svg>
+`
+
 Architecture principle reference
 
 docs/SHADOW_MOVEMENT_PRINCIPLE.md
