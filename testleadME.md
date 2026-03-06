@@ -59,14 +59,12 @@ Shadow Movement は独立した検証経路として相関的に接続され、
 
 この二重ムーブメント構造により、知識循環は停止しません。
 
+```mermaid
 flowchart LR
 
 A[Primary Movement Research Execution]
-
 B[Verification Layer Evidence Validation]
-
 C[Institutional Memory Recorded Knowledge]
-
 D[Shadow Movement Independent Verification Path]
 
 A --> B
@@ -74,6 +72,7 @@ B --> C
 
 A -.shadow path.-> D
 D --> B
+```
 
 Primary Movement
 Main research execution path.
