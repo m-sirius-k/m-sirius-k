@@ -1,12 +1,5 @@
 # MoCKA Perpetual Mechanism
 
-MoCKA is not a static system or ecosystem.  
-It is a perpetual mechanism.
-
----
-
-# Architecture
-
 <p align="center">
   <a href="docs/images/mocka_overview.svg">
     <img src="docs/images/mocka_overview.svg" width="800">
@@ -14,6 +7,9 @@ It is a perpetual mechanism.
 </p>
 
 ---
+
+MoCKA is not a static system or ecosystem.  
+It is a perpetual mechanism.
 
 ## Governance Layer
 
