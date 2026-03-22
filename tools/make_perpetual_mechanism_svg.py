@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 
 def svg():
     w, h = 1100, 520
@@ -57,7 +57,7 @@ def svg():
     parts.append(line(kg["x"] + kg["w"]/2, kg["y"] + kg["h"], civ["x"] + civ["w"]/2, civ["y"]))
 
     # Title
-    parts.append(f'<text x="{w/2}" y="18" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">MoCKA Ecosystem Architecture</text>')
+    parts.append(f'<text x="{w/2}" y="18" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">MoCKA Perpetual Mechanism Architecture</text>')
 
     parts.append('</svg>')
     return "\n".join(parts)
@@ -69,3 +69,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

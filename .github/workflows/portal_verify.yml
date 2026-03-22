@@ -1,4 +1,4 @@
-﻿name: portal_verify
+name: portal_verify
 
 on:
   workflow_dispatch:
@@ -24,3 +24,4 @@ jobs:
 
       - name: Run portal verification
         run: python tools/portal_verify.py
+

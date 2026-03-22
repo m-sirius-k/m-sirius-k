@@ -24,5 +24,5 @@
 <line x1="550.0" y1="132" x2="550.0" y2="210" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
 <line x1="550.0" y1="132" x2="880.0" y2="210" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
 <line x1="220.0" y1="302" x2="550.0" y2="380" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
-<text x="550.0" y="18" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">MoCKA Ecosystem Architecture</text>
+<text x="550.0" y="18" text-anchor="middle" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="14" fill="#94a3b8">MoCKA Perpetual Mechanism Architecture</text>
 </svg>
