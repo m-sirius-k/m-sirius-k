@@ -13,19 +13,32 @@ It is a perpetual mechanism.
 
 ### Governance Layer
 
+This layer defines the governance mechanism of MoCKA.
+
 MoCKA continuously transforms external inputs into internal driving force through a cyclic architecture composed of:
 
-- Insert (input acquisition)
-- Storage (ledger and memory persistence)
-- Runtime (knowledge processing engines)
-- Audit (verification and control)
+- Insert (input acquisition and admission control)
+- Storage (ledger and institutional memory)
+- Runtime (knowledge execution and processing)
+- Audit (verification, validation, and control)
+
+These components do not form a simple processing pipeline.
+They establish a governance structure that determines what is accepted, preserved, executed, and validated within the system.
 
 This mechanism is analogous to a self-winding mechanical watch.
 External events act as motion input.
-The system converts that motion into stored energy.
-Knowledge circulation continues even under partial failure through a dual-path architecture called Shadow Movement.
+The system converts that motion into stored energy, enabling continuous operation.
 
-MoCKA is designed as a verifiable knowledge mechanism that never stops.
+Even under partial failure, knowledge circulation does not stop.
+Through a dual-path architecture called Shadow Movement, the system maintains operation by transitioning into a reduced but stable mode.
+
+MoCKA is therefore not just a system, but a perpetual governance mechanism for verifiable knowledge.
+
+<p align="center">
+  <a href="docs/images/mocka_governance_layer_perpetual_mechanism.svg">
+    <img src="docs/images/mocka_governance_layer_perpetual_mechanism.svg" width="800">
+  </a>
+</p>
 
 ## MoCKA Perpetual Mechanism Framework
 
